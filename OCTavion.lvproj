@@ -11,7 +11,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="OCTavion_ScanControl_Host.vi" Type="VI" URL="../OCTavion_ScanControl_Host.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="OCTavionScanCont_FPGATarget_OCTavionScanCont_mQLUXe6JE5s.lvbitx" Type="Document" URL="../FPGA/FPGA Bitfiles/OCTavionScanCont_FPGATarget_OCTavionScanCont_mQLUXe6JE5s.lvbitx"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
