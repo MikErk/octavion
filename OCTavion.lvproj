@@ -18,7 +18,7 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OCTavionScanCont_FPGATarget_TimingAnalogOut_5jPXAI02EvE.lvbitx" Type="Document" URL="../FPGA/FPGA Bitfiles/OCTavionScanCont_FPGATarget_TimingAnalogOut_5jPXAI02EvE.lvbitx"/>
+			<Item Name="OCTavionScanCont_FPGATarget_OCTavionScanCont_mQLUXe6JE5s.lvbitx" Type="Document" URL="../FPGA/FPGA Bitfiles/OCTavionScanCont_FPGATarget_OCTavionScanCont_mQLUXe6JE5s.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
