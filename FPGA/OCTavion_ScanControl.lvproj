@@ -3135,6 +3135,7 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="LogicTest_DEBUG.vi" Type="VI" URL="../LogicTest_DEBUG.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
