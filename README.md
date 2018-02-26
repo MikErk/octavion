@@ -8,10 +8,12 @@ This is a repository to work together on our common OCT acquisition and processi
 3) For all FPGA coding (everything in the FPGA-folder) use LabView 2016 32-bit
 4) For every other purposes use the better supported LabView 2016 64-bit version
 5) Install the Alazartech ATS-SDK as well as the current drivers for your ATS-DAQ card
+6) Optional: Install Visual Studio 2015 Professional for GPU programming
+7) Install CUDA Toolkit 8.0 and update the NVidia Drivers
 
 ## Connections 
 
-The system was tested with an Insight OEM laser, a NI-7851R FPGA-I/O card and a Alazartech ATS-9373 high-speed DAQ card. As motherboard a Asus X99-E WS is used. The scanners were high-performance Saturn 1b galvanometer scanners from ScannerMax/Pangolin. For debugging the AlazarDSO v1.7.3 software was used.
+The system was tested with an Insight OEM laser, a NI-7851R FPGA-I/O card and a Alazartech ATS-9373 high-speed DAQ card. The signal is detected with a Thorlabs PDB480C-AC dual balanced detector. As motherboard a Asus X99-E WS is used. The scanners were high-performance Saturn 1b galvanometer scanners from ScannerMax/Pangolin. For debugging the AlazarDSO v1.7.3 software was used.
 
 1) Sample or k-clock (on laser) ---> 	ECLK (on ATS)
 2) Sweep trigger (on laser) 	---> 	DIO_4 (on FPGA)
