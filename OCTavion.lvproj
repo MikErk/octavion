@@ -22,12 +22,16 @@
 		<Item Name="GPU" Type="Folder" URL="../GPU">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SUB" Type="Folder" URL="../SUB">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="OCTavion_DAQControl_Host.vi" Type="VI" URL="../OCTavion_DAQControl_Host.vi"/>
 		<Item Name="OCTavion_Main.vi" Type="VI" URL="../OCTavion_Main.vi"/>
 		<Item Name="OCTavion_ScanControl_Host.vi" Type="VI" URL="../OCTavion_ScanControl_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -50,6 +54,12 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
+				<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
+				<Item Name="niFpgaGetClockAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributes.vi"/>
+				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -75,6 +85,7 @@
 			<Item Name="AlazarSetTriggerDelay.vi" Type="VI" URL="../../../../../AlazarTech/ATS-SDK/7.1.5/Samples_LabVIEW/Library/AlazarSetTriggerDelay.vi"/>
 			<Item Name="AlazarSetTriggerOperation.vi" Type="VI" URL="../../../../../AlazarTech/ATS-SDK/7.1.5/Samples_LabVIEW/Library/AlazarSetTriggerOperation.vi"/>
 			<Item Name="AlazarSetTriggerTimeOut.vi" Type="VI" URL="../../../../../AlazarTech/ATS-SDK/7.1.5/Samples_LabVIEW/Library/AlazarSetTriggerTimeOut.vi"/>
+			<Item Name="AlazarStartCapture.vi" Type="VI" URL="../../../../../AlazarTech/ATS-SDK/7.1.5/Samples_LabVIEW/Library/AlazarStartCapture.vi"/>
 			<Item Name="AlazarWaitNextAsyncBufferCompleteU16.vi" Type="VI" URL="../../../../../AlazarTech/ATS-SDK/7.1.5/Samples_LabVIEW/Library/AlazarWaitNextAsyncBufferCompleteU16.vi"/>
 			<Item Name="ATSApi.dll" Type="Document" URL="ATSApi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
