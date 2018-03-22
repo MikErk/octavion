@@ -3,7 +3,8 @@ This is a repository to work together on our common OCT acquisition and processi
 
 ## Installation:
 
-1) Install LabView 2016 32-bit and 64-bit as well as the RIO-DAQ drivers to your PC
+1) Install LabView 2016 32-bit and 64-bit
+2) Install Device Driver (DCD-Aug16) as well as RIO-DAQ drivers to your PC
 2) Install the FPGA Toolbox and the XiLinx 14.7 Compilation tools to compile locally
 3) For all FPGA coding (everything in the FPGA-folder) use LabView 2016 32-bit
 4) For every other purposes use the better supported LabView 2016 64-bit version
